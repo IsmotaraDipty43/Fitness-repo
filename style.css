@@ -1,0 +1,905 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+ @import url('https://fonts.cdnfonts.com/css/miama');
+ *{
+    padding: 0;
+    margin: 0;
+ }
+body{
+    background: rgb(0, 0, 0);
+    font-family: "Inter";
+}
+
+.main-text{
+    font-family: "Inter";
+    margin: 0px;
+}
+ /* shread style here */
+ .title{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1.3rem;
+  
+}
+.button1{
+    margin-top: 20px;
+margin-right: 13px;
+padding: 15px 30px;
+color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 600;
+border-radius: 42px;
+border: none;
+background: rgb(230, 83, 60);
+
+}
+.button3{
+    margin-top: 20px;
+margin-right: 13px;
+padding: 15px 50px;
+color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 600;
+border-radius: 42px;
+border: none;
+background: rgb(230, 83, 60);
+
+}
+.button2{
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background-color: transparent;
+}
+/* nav-ber */
+.navber-part1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-section{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+li {
+    list-style: none;
+  
+}
+ul{
+    align-items: center;
+  
+}
+.navber{
+    margin-bottom: 50px;
+}
+.navigation-menu{
+    display: flex;
+    padding: 0;
+    margin: 8px 0 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+.page-title{
+    color: rgb(230, 83, 60);
+    font-size: 3rem;
+    font-weight: 800;
+}
+.menu-hide{
+    display: none;
+}
+.link-item{
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 28px;
+    color: white;
+}
+
+.link-text{
+    display: inline-block; 
+    text-align: center;
+    padding: 7px 20px;
+    color: white; 
+    border: 2px solid rgb(230, 83, 60); 
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+ 
+}
+/* banner part */
+.Banner-part{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.image-part, .Text-part{
+ 
+    width: 50%;
+   height: auto;
+  
+}
+.banner-title{
+        color: rgb(255, 255, 255);
+        font-size: 4.5rem;
+        margin-top:60px;
+        font-weight: 900;
+    }
+.banner-description{
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 10px;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+.primary-text{
+    font-family: 'Miama';
+    font-weight: normal;
+    font-size: 6rem; 
+    color: rgb(255, 255, 255); 
+    margin-bottom: 0px;
+}
+.image-part{
+    position: relative;
+}
+.image-part img{
+    margin-left: 200px;
+    height: 100%;
+}
+.text1{
+margin-top: -450px;
+margin-left: 420px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+position: absolute;
+font-family: "Inter";
+}
+.heading{
+    font-size: 2.9rem;
+    font-weight: 900;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 0px 18px;
+    
+        
+}
+.description{
+    padding: 0 16px 22px 22px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+   
+
+}
+.text2{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+margin-left: 120px;
+margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+.ring{
+width: 38px;
+height: 38px;
+margin-left: 12px;
+border-radius: 50%;
+background: rgb(230, 83, 60);
+
+}
+.ring2{
+    margin-left: 5px;
+}
+.ring-title{
+    color: rgb(255, 255, 255);
+    margin: 10px 25px 5px 5px;
+        font-size: 1.9rem;
+        font-weight: 900;
+        text-align: left;
+}
+.ring-description{
+    color: rgba(255, 255, 255, 0.65);
+    margin: 8px 25px 8px 5px;
+    font-size: 0.9rem;
+    font-weight: 400;
+   
+}
+/* program explore */
+.challange, .run{
+max-width: 1200px;
+margin: 0 auto;
+margin-top: 70px;
+
+}
+.habit-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+.habit-description{
+    color: rgba(255, 255, 255, 0.5);
+   text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.image-gallary{
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 50px;
+    display:flex;
+    gap: 100px;
+}
+.image-gallary img{
+    border-radius: 50%;
+}
+.img-title{
+color: rgb(255, 255, 255);
+font-size: 1.2rem;
+font-weight: 600;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 5px;
+}
+.img-description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center; 
+}
+
+.image{
+    margin-bottom: 30px;
+}
+/* running part */
+.run{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    border-radius: 18px;
+background: rgb(34, 34, 34);
+}
+.runtext{
+padding: 25px;
+}
+.runtitle{
+    color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.rundescription{
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.runimage{
+    display: flex;
+    padding:25px;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.runimage img {
+    height: auto; 
+    max-height: 100%;
+    object-fit: cover; 
+    border-radius: 18px;
+    width: 100%;
+   
+}
+
+
+/* BMI */
+.calculator-section {
+    margin: 70px auto; 
+  
+    box-sizing: border-box;
+}
+
+.intro-text {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.calculator-container {
+    background: rgb(34, 34, 34);
+    height: 420px;
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.chart-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.9rem;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.form-title{
+    margin-top: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+.section-title{
+ 
+    font-weight: 900;
+margin-left: 50px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 2.8rem;
+}
+.intro-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-left: 50px;
+     
+}
+
+.chart-section, .calculator-form{
+    width: 50%;
+    }
+    .chart-section{
+        text-align: center;
+       margin-top: 50px;
+    }
+    .calculator-form{
+        margin-top: 20px;
+        text-align: left; 
+    }
+    th, td {
+        font-size: 1.2rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 8px;
+        text-align: left; 
+        color: rgba(255, 255, 255, 0.5);}
+    
+    th{
+        color: white;
+    }
+    .bmi-table{
+        margin: 0 auto;
+        width: 50%;
+        border-collapse: collapse; 
+        
+    }
+   
+  
+input[type="text"], select {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px; 
+    border: none; 
+    font-size: 14px; 
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: calc(40% - 22px); 
+}
+
+
+select {
+    padding-right: 30px;
+}
+
+
+.select-activity {
+    width: calc(80% - 28px); 
+}
+
+
+input[type="text"]:focus, select:focus {
+    outline: none; 
+    border: 2px solid rgba(255, 255, 255, 0.6); 
+    background: rgba(255, 255, 255, 0.2); 
+}
+
+
+    .form-description{
+        color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+        margin-top: 10px;
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        
+    }
+    
+    .form-button{
+        margin-top: 20px;
+    margin-right: 13px;
+    padding: 15px 50px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    
+    }
+
+    .join-description{
+        color: rgba(255, 255, 255, 0.5);
+       text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+
+/* Team section styles */
+.team-section {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.teamdescription {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.teammember {
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 10px; 
+    margin: 0 auto;
+}
+
+.allmember {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr);  
+    gap: 30px;
+}
+
+.grid-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 18px;
+    min-height: 200px; 
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;                        
+    object-fit: cover;                   
+}
+
+
+.text-overlay {
+    position: absolute;
+    bottom: 15px; 
+    left: 20px; 
+    color: white;
+    text-align: left; 
+    padding: 10px;
+    border-radius: 8px;
+   
+    box-sizing: border-box; 
+}
+
+
+.overlaytitle{
+    font-family: "Inter";
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.overlaydescription{
+    font-family: "Inter";
+    font-size: 1rem;
+    margin: 0;
+}
+
+    
+/* unique section */
+.join{
+    margin-top: 50px;
+}
+.image-container{
+margin-top: 50px;
+}
+.image2{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    border-radius: 8px;
+}
+.image2 img{
+    width: 100%;
+}
+.container {
+   margin-top: -60px;
+    position: absolute; 
+   width: 93%;
+    left: 20px; 
+    
+    background: rgb(34, 34, 34);
+    color: white; 
+
+    border-radius: 10px;
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    padding: 20px;
+}
+.card{
+    margin-top: 12px;
+    margin-right: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.assest-heading{
+font-size: 1.3rem;
+color: white;
+margin-bottom: 20px;
+}
+
+.assest-description{
+    font-size: 0.9rem;
+color: white;
+margin-bottom: 15px;
+}
+
+/* footer*/
+.footer{
+    margin-top: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    height:480px;
+}
+
+.footer-info{
+    display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 220px;
+ padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.footer-text{
+    color: rgb(230, 83, 60);
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-top: 65px;
+    margin-bottom: 15px;
+}
+.footerdescription{
+    margin-top: 10px;
+        font-size: 1.2rem;
+        font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.text-footer{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 55px;
+    
+    color: rgb(255, 255, 255);
+    
+}
+.description1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+font-size: 1.5rem;
+font-weight: 400;
+
+}
+
+.infohr {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-left: 350px;
+    width: 60%;
+     margin-top: 10px; 
+     
+   }
+   
+   .last{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 30px;
+   margin-left: -70px;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.5);
+   }
+/* responsive */
+@media screen  and (max-width:776px){
+.navbar-wrapper{
+    display: none;
+}
+.menu-hide{
+    display: block;
+    margin-right: 10px;
+}
+    .Banner-part{
+        flex-direction: column;
+    }
+    .image-part, .Text-part{
+ 
+        width: 100%;
+        margin-left: 10px;
+      
+    }
+    .image-part img{
+        margin-left: 10px;
+        height: 100%;
+    }
+    .text2{
+    margin-left: 10px;
+    margin-top: -320px;
+    }
+    .banner-description{
+        font-size: 1.1rem;
+    }
+    .text1{
+        margin-top: -520px;
+        margin-left: 210px;
+     
+        }
+        .banner-title{
+            font-size: 3.5rem;
+            margin-top: 10px;
+        }
+        .banner-description{
+            font-size: 1.1rem;
+        }
+        .navber{
+            margin-bottom: 30px;
+        }
+        .challange{
+          margin-bottom: 30px;
+            margin-top: 30px;
+            }
+        .habit-title{
+          
+            font-size: 2.1rem;
+          
+        }
+        .habit-description{
+           margin-left: 20px;
+            font-size: 1rem;
+         
+        }
+        .image-gallary{
+         flex-direction: column;
+            margin-top: 30px;
+           gap: 20px;
+        }
+        .run{
+            flex-direction: column;
+       margin: 15px;
+            height: 720px;
+            gap: 20px;
+        }
+        .button3{
+            width: 100%;
+        }
+        .runtext{
+            margin-bottom: 5px;
+        }
+        .rundescription{
+            font-size: 1.2rem;     
+
+        }
+        .runtitle{
+            font-size: 2.5rem;
+        }
+        .calculator-section{
+            margin-top: 50px;
+            margin-bottom: 50px;
+           
+        }
+        .calculator-container{
+            margin-top: 30px;
+           flex-direction: column;
+        height: 650px;
+        }
+        .chart-section, .calculator-form{
+            width: 100%;
+            margin: 0 20px;
+            }
+
+            .section-title{
+            margin-left: 20px;
+                margin-bottom: 10px;
+                font-size: 2.1rem;
+            }
+            .intro-description{
+              
+                font-size: 0.9rem;
+
+                margin-bottom: 10px;
+                margin-left: 20px;
+                 
+            }
+            .chart-title {
+                text-align: left;
+              margin-top: 20px;
+                font-size: 1.5rem;
+                margin-bottom: 20px;
+            }
+            .bmi-table{
+                width: 80%;
+                margin: 10px 0;
+            }
+            th, td {
+                font-size: 1.1rem;
+            }
+               .form-title{
+                font-size: 1.5rem;
+               }
+               .form-description{
+                font-size: 0.9rem;
+               }
+               .image2{
+                margin: 0 20px;
+               }
+              
+             
+            .join-description{
+                
+                font-size: 1.1rem;
+         
+            }
+            .container {
+                padding: 5px;
+            
+                width:93%;
+                height: 350px;
+                grid-template-columns: 1fr; 
+                width: calc(100% - 20px); 
+                left: 5px; 
+            }
+        
+    
+
+
+            .card {
+                padding: 20px;
+                gap: 10px;
+       
+                justify-content: flex-start;
+            
+            margin-top: 5px;
+        margin-right: 5px; }
+           
+/* meet our team  */
+
+.allmember {
+    padding: 10px;
+    margin-right: 2px;
+    grid-template-columns: repeat(1, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    gap: 10px;
+}
+
+.teammember{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item-1, .item-4 {
+    display: none;
+}
+.text-overlay {
+    bottom: 15px; 
+    left: 10px; 
+   
+}
+
+.item-2 {
+    order: 1; 
+}
+
+.item-5 {
+    order: 2; 
+}
+
+.item-3 {
+    order: 3; 
+}
+
+.item-6 {
+    order: 4; 
+}
+.teamdescription {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* footer */
+            .footer{
+                margin-top: 100px;
+
+                height:650px;
+            }
+            .footer-info{
+             grid-template-columns: repeat(1,1fr);
+             gap: 5px;
+             padding: 20px;
+             height: auto;
+            }
+            .footer-text{
+                font-size: 2.9rem;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            
+            .footerdescription{
+               
+                font-size: 1rem;
+            margin-top: 10px;
+            }
+            
+            .text-footer{
+            
+                font-size: 1.6rem;
+                margin-top: 10px;
+                
+            }
+            .description1{
+                margin-bottom: 10px;
+                font-size: 1.1rem;
+                margin-top: 5px;
+               
+            }
+            
+            .infohr{
+            
+            width:92%;
+            margin-top: 20px; 
+             margin-left: 10px;
+             margin-right: 10px;
+            }
+            
+            .last{
+            margin-top: 20px;
+            text-align: left;
+            margin-left: 14px;
+            font-size: 1rem;
+              
+          
+            }
+            
+            
+    }
