@@ -89,6 +89,7 @@ ul{
     color: rgb(230, 83, 60);
     font-size: 3rem;
     font-weight: 800;
+    font-style: italic;
 }
 .menu-hide{
     display: none;
@@ -600,6 +601,7 @@ margin-bottom: 15px;
     font-weight: 800;
     margin-top: 65px;
     margin-bottom: 15px;
+    font-style: italic;
 }
 .footerdescription{
     margin-top: 10px;
