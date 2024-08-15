@@ -656,6 +656,7 @@ font-weight: 400;
 }
     .Banner-part{
         flex-direction: column;
+ 
     }
     .image-part, .Text-part{
  
@@ -684,9 +685,10 @@ font-weight: 400;
             margin-top: 10px;
         }
         .banner-description{
-            font-size: 1.1rem;
+            font-size: 1rem;
         
         }
+      
         .navber{
             margin-bottom: 30px;
         }
@@ -713,8 +715,9 @@ font-weight: 400;
         .run{
             flex-direction: column;
        margin: 15px;
-            height: 720px;
-            gap: 20px;
+            height: 650px;
+            gap: 0px;
+            justify-content: flex-start;
         }
         .button3{
             width: 100%;
