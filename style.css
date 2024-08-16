@@ -715,7 +715,7 @@ font-weight: 400;
         .run{
             flex-direction: column;
        margin: 15px;
-            height: 650px;
+            height: 670px;
             gap: 0px;
             justify-content: flex-start;
         }
