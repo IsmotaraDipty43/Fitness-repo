@@ -1,7 +1,4 @@
 # **Fitness**
-
-[**Live Demo**](https://ismotaradipty43.github.io/Fitness-repo/)
-
 ## **Description**
 **Fitness** is a simple website where users can hire personal trainers. The website includes trainer information, a BMI calculation section, and a contact section.
 
